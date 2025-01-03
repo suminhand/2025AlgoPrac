@@ -11,6 +11,7 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		String school = scan.next();
 		int grade = scan.nextInt();
+		scan.close();
 		
 		Student stu2 = new Student(school, grade);
 		stu2.print();
